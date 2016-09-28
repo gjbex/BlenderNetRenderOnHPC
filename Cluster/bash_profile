@@ -1,0 +1,2 @@
+export PATH="${VSC_HOME}/Blender:${PATH}"
+export PATH="/apps/leuven/K40c/source/blender/blender-2.77a/:${PATH"

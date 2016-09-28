@@ -1,0 +1,4 @@
+Host nx1
+    Hostname 134.58.8.22
+    User <user-id>
+    ForwardX11 yes

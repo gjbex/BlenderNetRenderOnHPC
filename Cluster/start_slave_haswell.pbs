@@ -1,0 +1,10 @@
+#!/bin/bash -l
+#PBS -l nodes=1:ppn=24:haswell
+#PBS -l walltime=01:00:00
+#PBS -l mem=58gb
+
+BLENDER_DIR=/apps/leuven/K40c/source/blender/blender-2.77a/
+PATH="${BLENDER_DIR}:${PATH}"
+
+mkdir /tmp/${USER}
+blender -b Blender/slave.blend -a --addons netrender -noaudio -nojoystick
