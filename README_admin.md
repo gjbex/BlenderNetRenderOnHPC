@@ -24,7 +24,7 @@ directive in each of the PBS scripts.
 The Blender preference file has to be copied to its proper directory as
 well:
 ```bash
-$ mkdir  -p  ~/.config/blender/2.77/
+$ mkdir  -p  ~/.config/blender/2.77/config
 $ cp  ~/Blender/userpref.blend  \
       ~/.config/blender/2.77/config/userpref.blend
 ```
